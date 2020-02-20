@@ -7,6 +7,7 @@ RUN apt-get update
 RUN apt-get install -y \
     build-essential \
     neovim \
+    git \
     gcc \
     ssh \
     curl \
@@ -18,7 +19,7 @@ RUN a2enmod rewrite
 RUN service apache2 restart
 ADD start.sh /home/rods/start.sh
 RUN chmod +x /home/rods/start.sh
-WORKDIR /home/rods
 RUN useradd -m rods && echo "rods:rods" | chpasswd && adduser rods sudo
+RUN chown rods:rods -R /home/rods
 ENTRYPOINT /home/rods/start.sh && bash
 EXPOSE 80 443
