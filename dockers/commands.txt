@@ -1,0 +1,4 @@
+docker stop $(docker ps -a -q) --- para os containers rodando 
+docker rm $(docker ps -a -q) --- deleta os containers rodando
+docker system prune --- limpa imagens não utilizadas
+docker image prune -a --- limpa todas as imagens
