@@ -1,5 +1,6 @@
 echo "hello rods ;D"
 passwd rods
+gem install compass
 apt install -y mysql-server-5.6
 add-apt-repository -y ppa:ondrej/php
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4F4EA0AAE5267A6C

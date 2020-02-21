@@ -14,6 +14,7 @@ RUN apt-get install -y \
     curl \
     apache2 \
     sudo \
+    ruby-full \
     make
 
 RUN a2enmod rewrite
