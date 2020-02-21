@@ -6,6 +6,7 @@ RUN add-apt-repository ppa:neovim-ppa/stable
 RUN apt-get update
 RUN apt-get install -y \
     build-essential \
+    pv \
     neovim \
     git \
     gcc \
