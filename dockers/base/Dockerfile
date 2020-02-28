@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:16.04
 RUN apt-get update
 RUN apt install -y software-properties-common
 RUN add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe'
@@ -10,6 +10,7 @@ RUN apt-get install -y \
     libevent-dev \
     libncurses5-dev \
     pv \
+    wget \
     neovim \
     git \
     gcc \
