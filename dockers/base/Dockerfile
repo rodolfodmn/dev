@@ -1,8 +1,7 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 RUN apt-get update
 RUN apt install -y software-properties-common
 RUN add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe'
-RUN add-apt-repository ppa:neovim-ppa/stable
 RUN apt-get update
 RUN apt-get install -y \
     build-essential \
