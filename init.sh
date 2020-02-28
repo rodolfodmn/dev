@@ -2,6 +2,7 @@ echo 'cirando ambiente de desenvolvimento maroto :D'
 mkdir dbs
 mkdir modules
 git clone https://github.com/rodolfodmn/dotfiles
+git clone https://github.com/rodolfodmn/py_bash.git
 git clone https://github.com/rodolfodmn/php_bash.git
 git clone https://github.com/rodolfodmn/bash
 git clone https://github.com/rodolfodmn/magentoTinyFixes
