@@ -1,0 +1,24 @@
+Aprendendo vim
+
+Porque aprender vim?
+
+o vim consegue fazer a edição completa dos arquivos se a necessidade do mouse, deixando o pensamento mais fluido e focadom, sem a constante movimentação da mão.
+Também parace prover atalhos que são mais eficiente do que o uso do mouse.
+
+O que já foi aprendido?
+
+#movimentação com as teclas hjkl, já foi quase dominada porém ainda falta um pouco de treino
+#ctr p um plugin muito bom já faz o trabalho
+#pesquisa no projeto, com um plugin eu consegui bons resoltados, porem ainda fica muito atraz do vscode
+#autocomplete parace até malhor do que o do vscode
+#git dos arquivos funciona bem com plugin
+
+Pontos que ainda não são atendidos
+
+#repalce no projeto todo ainda não sei uma maneira boa de fazer
+#git diff do vscode é lindo
+#snippets preciso ver como faz
+
+<C-y>, = executa emmet
+gcc = comenta uma linha 
+gc[jk] = comenta na direção selecionada
