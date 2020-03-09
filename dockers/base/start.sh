@@ -14,9 +14,9 @@ apt install -y libapache2-mod-php5.6
 # wget https://github.com/neovim/neovim/releases/download/v0.4.3/nvim.appimage
 # ./nvim.appimage --appimage-extract
 # cp ~/squashfs-root/usr/* /usr -r
-nvim /etc/apache2/apache2.conf
-nvim /etc/apache2/sites-available/default-ssl.conf 
-nvim /etc/apache2/sites-available/000-default.conf
+vim /etc/apache2/apache2.conf
+vim /etc/apache2/sites-available/default-ssl.conf 
+vim /etc/apache2/sites-available/000-default.conf
 mkdir -p /var/www/html/stores
 chmod 777 /var/www/html -R
 sudo service apache2 restart

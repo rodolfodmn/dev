@@ -11,7 +11,7 @@ RUN apt-get install -y \
     libncurses5-dev \
     pv \
     wget \
-    neovim \
+    vim \
     git \
     gcc \
     ssh \
