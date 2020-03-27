@@ -11,5 +11,5 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp ./dotfiles/.tmux.conf ~/
 cp ./dotfiles/.zshrc ~/
 cp ./dotfiles/.vimrc ~/
+cp ./dotfiles/.bashrc ~/
 
-vim .
