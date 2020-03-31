@@ -28,4 +28,4 @@ RUN chmod +x /home/rods/start.sh
 RUN useradd -m rods && echo "rods:rods" | chpasswd && adduser rods sudo
 RUN chown rods:rods -R /home/rods
 ENTRYPOINT /home/rods/start.sh && /bin/bash
-EXPOSE 80 443
+EXPOSE 22 80 443
