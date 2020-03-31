@@ -1,3 +1,9 @@
+// inicia e para instancia //
+docker run -it dockerImage:1.0(versao da imagem) --- roda a imagem
+docker commit (hash da imagem) dockerImage:1.0(versao da imagem) --- commit o que foi feito no docker
+docker stop (hash da imagem) --- para imagem, e perde tudo que não foi commitado
+
+docker ps --- lista dockers rodando
 docker stop $(docker ps -a -q) --- para os containers rodando 
 docker rm $(docker ps -a -q) --- deleta os containers rodando
 docker system prune --- limpa imagens não utilizadas
