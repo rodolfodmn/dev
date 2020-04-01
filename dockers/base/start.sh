@@ -14,6 +14,18 @@ apt install -y libapache2-mod-php5.6
 # wget https://github.com/neovim/neovim/releases/download/v0.4.3/nvim.appimage
 # ./nvim.appimage --appimage-extract
 # cp ~/squashfs-root/usr/* /usr -r
+
+#Install node 12 <
+curl -sL https://deb.nodesource.com/setup_12.x -o ~/nodesource_setup.sh
+bash nodesource_setup.sh
+apt install nodejs
+#Install node 12 >
+
+#npm user config <
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+#npm user config >
+
 vim /etc/apache2/apache2.conf
 vim /etc/apache2/sites-available/default-ssl.conf 
 vim /etc/apache2/sites-available/000-default.conf
