@@ -19,8 +19,10 @@ RUN apt-get install -y \
     apache2 \
     sudo \
     ruby-full \
+	locales \
     make
 
+RUN locale-gen en_US.UTF-8
 RUN a2enmod rewrite
 RUN service apache2 restart
 ADD start.sh /home/rods/start.sh
