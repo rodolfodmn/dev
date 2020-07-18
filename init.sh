@@ -11,7 +11,7 @@ git clone https://github.com/rodolfodmn/magentoTinyFixes
 
 cp ./html/sql_para_lojas_gitlab.sql ./dbs
 cp ./html/adminer.php ./html/stores
-cp ./dotfiles/.zshrc ~/
+cat ./dotfiles/zshrc  > ~/.zshrc
 cp ./dotfiles/init.vim ~/.config/nvim
-cp ./dotfiles/.bashrc ~/
+cat ./dotfiles/bashrc > ~/.bashrc
 
