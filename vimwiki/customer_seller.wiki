@@ -1,0 +1,122 @@
+[[#]] Módulo Cliente Vendedor / Customer Seller
+
+## Front
+>Painel do cliente / Clientes Vinculados 
+    - Lista clientes vinculados no custumer logado
+
+## Admin
+>Clientes / Gerenciar Clientes / Editar / Dados de Acesso 
+    - Adiciona os campos **Customer Vende** e **Código Comercial**
+   
+## Api
+### Métodos / Requests
+- Create
+---
+> Request:
+```xml
+   <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+       <Body>
+		   <customerSellerCreateRequestParam xmlns="urn:Magento">
+			   <sessionId xmlns="">{{ sessionId }}</sessionId>
+			   <integrante xmlns="">
+				   <codigo>[string]</codigo>
+				   <nome>[string]</nome>
+				   <usuario>[string]</usuario>
+				   <senha>[string]</senha>
+				   <tipo>[string]</tipo>
+				   <cpfcnpj>[string]</cpfcnpj>
+				   <email>[string]</email>
+				   <ativo>[string]</ativo>
+			   </integrante>
+		   </customerSellerCreateRequestParam>
+	   </Body>
+   </Envelope>
+```
+> Response:
+```xml
+   <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+       <Body>
+		   <customerSellerCreateRequestParam xmlns="urn:Magento">
+			   <sessionId xmlns="">{{ sessionId }}</sessionId>
+			   <integrante xmlns="">
+				   <codigo>[string]</codigo>
+				   <nome>[string]</nome>
+				   <usuario>[string]</usuario>
+				   <senha>[string]</senha>
+				   <tipo>[string]</tipo>
+				   <cpfcnpj>[string]</cpfcnpj>
+				   <email>[string]</email>
+				   <ativo>[string]</ativo>
+			   </integrante>
+		   </customerSellerCreateRequestParam>
+	   </Body>
+   </Envelope>
+```
+---
+
+- Link
+---
+> Request:
+```xml
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+		<customerSellerLinkRequestParam xmlns="urn:Magento">
+			<sessionId xmlns="">{{ sessionId }}</sessionId>
+			<integrante_id xmlns="">40</integrante_id>
+			<customer_ids xmlns="">41,38</customer_ids>
+		</customerSellerLinkRequestParam>
+	</Body>
+</Envelope>
+```
+> Response:
+```xml
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+	<Body>
+		<customerSellerLinkRequestParam xmlns="urn:Magento">
+			<sessionId xmlns="">{{ sessionId }}</sessionId>
+			<integrante_id xmlns="">40</integrante_id>
+			<customer_ids xmlns="">41,38</customer_ids>
+		</customerSellerLinkRequestParam>
+	</Body>
+</Envelope>
+```
+---
+- Edit
+---
+> Request:
+```xml
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+	<Body>
+		<customerSellerEditRequestParam xmlns="urn:Magento">
+			<sessionId xmlns="">[string]</sessionId>
+			<customer_id xmlns="">[string]</customer_id>
+			<integrante xmlns="">
+				<codigo>[string]</codigo>
+				<nome>[string]</nome>
+				<usuario>[string]</usuario>
+				<senha>[string]</senha>
+				<tipo>[string]</tipo>
+				<cpfcnpj>[string]</cpfcnpj>
+				<email>[string]</email>
+				<ativo>[string]</ativo>
+			</integrante>
+		</customerSellerEditRequestParam>
+	</Body>
+</Envelope>
+```
+> Response:
+```xml
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+		<customerSellerLinkRequestParam xmlns="urn:Magento">
+			<sessionId xmlns="">{{ sessionId }}</sessionId>
+			<integrante_id xmlns="">40</integrante_id>
+			<customer_ids xmlns="">41,38</customer_ids>
+		</customerSellerLinkRequestParam>
+	</Body>
+</Envelope>
+```
+---
+## Configs
+
+= ## Use =
