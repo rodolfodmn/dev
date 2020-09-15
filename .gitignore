@@ -8,3 +8,6 @@ dbs/
 modules/
 html/stores/
 *.swp
+pixel/
+aseprite/
+deps/
