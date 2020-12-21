@@ -1,0 +1,1 @@
+Friday I refactored some of the module's methods, the module's code is actually good for understanding, but the large methods were making my tests difficult, so I reduced some.

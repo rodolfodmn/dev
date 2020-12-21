@@ -1,0 +1,3 @@
+yesterday I analyzed some things that happen when we are editing the product, to try to fix the bug of the black friday category, but I was not very successful.
+[[Soo]], I started to implement the tests in the zendesk module. I analyzed the module and found some things that I can already test.
+And today I'm just continuing with the tests implementation

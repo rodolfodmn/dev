@@ -1,0 +1,6 @@
+log de horas
+Apps > Tempo : abre time sheets, logar todo dia.
+horas comunicação interna: Açoes sem tarefa MAG2-2058
+Submit last period: completar 160h e submeter
+Não vai mais ter tarefa de pull request, colar link da pr nos comentários.
+

@@ -1,0 +1,22 @@
+## Descricao:
+Olá, boa tarde !
+
+Favor não enviar mais notificações no Zendesk para todo o cliente que solicita o cadastro em nosso site.
+
+Estou acompanhando pelo Magento agora.
+
+Agradeço desde já !
+
+##Inico:
+analizando como o Zendesk faz as paradas.
+
+### Models:
+CreateTicket:
+Tem só um method localDelivery(), cria um ticket/notificação de order, não manjo muito bem pra que, mas não parece ter relação com meu role
+
+CustomerOrderRepository:
+pega order baseado no email passado com o method get(), e pega o customer data com, getCustomerData().
+
+SendTickets:
+createTicketNewB2bCustomer() acredito que essa seja meu method, acredito que achando onde ele é utilizado, e removendo, a task ta done.
+

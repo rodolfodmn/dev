@@ -1,0 +1,57 @@
+# MAG2-2426
+
+## implementação de testes no zendesk
+inicie com a estrutura de testes, criando as class e tals, agora eu vou dar um estudada, e identificar os methods que precisam de testes.
+pelo que eu analisei brevemente a class CustomerOrderRepository é um bom começo.
+
+## Testes feitos
+  ### Models
+    CreateTicket: Done
+    testIsBrigitEmail
+    testValidateOrderState
+    testValidadeStateMotoboy
+
+    CustomerOrderRepository:
+    testFormatCreateAt
+    testGetGroupName
+    
+
+    SendTicketsTeste:
+    null
+
+    TicketCommentsManager: Done
+    testGetLastAnswer
+
+    TicketsCatcher: Done
+    testGetTicketCommentsApiUrl
+  
+  [[###]] Controllers
+    Customer: 
+    null
+    
+    Order:
+    null
+    
+  ### Helpers
+    Data:
+    null
+  
+## Progress
+  8 class
+  3,5 done
+  43% 
+  
+
+
+## Chery picks
+e330da902
+e7429a7cf
+1b50303f2
+cb53e4c86
+4a2cbb62c
+2a459f7fa
+572ca17e4
+ea10793be
+--
+7aba89feb
+d5c3cc23c

@@ -2,4 +2,10 @@
 [[music]]
 [[projects]]
 [[bis]]
+[[m2_bugs]]
+[[m2_devs]]
+[[bringit]]
+[[personal]]
+
+
 

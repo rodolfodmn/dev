@@ -1,0 +1,22 @@
+1:
+identificar porque o video que foi cadastrado no produto, não aparece no front
+2:
+simular a adicao de um video no produto no localhost
+R:
+aparentemente o erro é causado pele quota da api do youtube que acabou.
+1:
+resolver problema com a quota do youtube
+2:
+ver se alguém sabe como essa quota fuciona
+R:
+Vini deu uma explicada de como funciona 
+1:
+como funciona essa parada.
+2:
+entender o que o vini explicou
+1:
+ver com o vini se eu posso colocar uma outra key qualquer.
+2:
+pedir pro Welysson gerar outra key
+1: AIzaSyAOAbcVDrUL7RklKO410jfB-Va4UeW8-v4
+

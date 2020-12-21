@@ -1,0 +1,8 @@
+1:
+encontrar o motivo do erro ao salvar um produto com uma categoria nova
+2:
+simular local mente
+3:
+tive alguns time out pra tirar as categorias, talvez tenha relação com o bug, mas deixei o produto só com as categorais que ele tem em production, e add a da black, mas o erro não aconteceu.
+1:
+

@@ -1,0 +1,2 @@
+Friday I was working with two tasks, the error when adding a new category in the product and the video that did not appear in the product view, 
+I was able to identify that the error was in the youtube api key, and today I changed the key and the videos went back to appear, and now I am in error when saving the product with a new category

@@ -1,0 +1,22 @@
+# Estudando o execute de Product/Save
+
+## Primeira parte, variaveis
+'Carrega a Store'
+cria uma var para redirect
+pega product id
+'Carega' o redirect com fectory -> create 
+popula $data com postValue 
+'productAttributeSetId = $this->getRequest()->getParam('set');' não sei muito bem o que isso é, mas carrega um attribute id ai
+e por ultimo, pega o product type.
+
+## Primeiro if
+aqui rola um if data, caso data tenha recebido alguma coisa no postValue, executa toda a lógica do execute.
+no else só rola um redirect com um error 'no data to save'
+
+## Lógica central
+Aqui temos um try que iniciarliza com um helper o product baseado na request, e caso não tenho o getName() do product, gera um throw.
+cria a var originalSku, executa canSaveCustomOptions, acredito que é pra validar as custom options, e faz um product->save(), não sei onde os dados foram atualizados,
+acho que foi no helper la, mas sei la.
+
+
+

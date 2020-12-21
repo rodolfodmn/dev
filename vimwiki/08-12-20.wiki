@@ -1,0 +1,1 @@
+yesterday i was finishing evaluating my pull request, and i was stuck in the islocaldelivery method of the createTicket class, which had a very crazy if, and to ensure that the logic was right, it was difficult, today I was able to validate this logic, and found nothing else wrong, so I believe my phpunit pull request is ok.

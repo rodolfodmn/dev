@@ -1,0 +1,3 @@
+yesterday I had trouble creating mocks with chained methods, so I spent a lot of time researching this, 
+I didn’t get much, and resolved my focus on the remaining tests, 
+and today I continued with finalizing the tests I got, and as soon as I finished i'm going back to the ones i'm stuck with.

@@ -1,0 +1,26 @@
+git checkout develop
+git pull origin develop
+
+// Com a develop, criar uma branch para a task com o code dela.
+git checkout -b MAG2-2020
+
+// fazer commit nesse padrão
+git commit -s -m "MAG2-2020 - parada que voce fez"
+
+// fazer cherry-pick do commit na develop
+git checkout develop
+git pull origin develop
+git cherry-pick b510110d
+git push origin develop
+
+// pull request na master
+git checkout master
+git pull origin master
+
+// com base na master criar uma branch de deploy 
+git checkout -b MAG2-2020-deploy
+
+// mais cherry, pusha a branch de deploy
+git cherry-pick b510110d
+git push origin MAG2-2020-deploy
+180ac372

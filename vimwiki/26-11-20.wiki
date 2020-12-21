@@ -1,0 +1,2 @@
+yesterday I started validating new methods from zendesk to be tested, I had some difficulties,
+because I still don't know how to do all kinds of tests, and some things are not very testable, and today I'm just continuing.
