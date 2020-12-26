@@ -1,5 +1,0 @@
-OpsenDislexic
-** Docker bis
-Composer
-
-
