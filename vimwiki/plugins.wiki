@@ -1,0 +1,11 @@
+Plug 'morhetz/gruvbox'
+Plug 'voldikss/vim-floaterm'
+Plug 'vim-airline/vim-airline'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'preservim/nerdcommenter'
+Plug 'vimwiki/vimwiki'
+se tiver tempo
+Plug 'neoclide/coc.nvim', {'branch': 'release'}

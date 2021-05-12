@@ -1,0 +1,24 @@
+##O que é o raciocinio?
+	é a capacidade de trabalhar dados que você tem em memoria, de curto ou longo prazo
+	o que é memoria de longo prazo?
+		são infomações, acontecimentos e conhecimentos antigos que voce armazenou no cerebro e e são dificeis de apagar
+	o que é memoria de curto prazo?
+		são informações que estão no seu momento do agora, que podem ou não ser colocadas na memoria de longo prazo
+	qual a relação disso com o raciocinio?
+		o raciocinio é basicamente como o seu cerebro lida com as coisas que estão na mémoria de longo e curto prazo
+	como eu posso optimizar meu raciocinio?
+		em geral nos temos de 4 a 7 slots de memoria de curto prazo ou memoria de trabalho
+		uma das coisas que você pode fazer imediatamente é ter um caderno de anotações, porque quando você anota alguma coisa, seu cerebro entende que não precisa guardar e lembrar disso mais.
+		assim você consegue mais espaço para dados mais importantes para o momento 
+		automatize coisas mecanicas com treino, digitação atalhos de teclado etc, rapido e devagar
+		bom humor
+	crie mais conexões neurais
+		exercicios fisicos
+		habilidades motoras
+		novidades na sua rotina
+		musica
+	usando os sentimentos e ideias mais proximas do funcionamento natural do cerebro
+		storytelling, explicar raciocinio com base nos filmes
+		ensinar mvc com uma historia 
+		tranformar um problema em uma historia para envolver mais partes do cerebro
+	por ultimo não sobrecarregue seu cerebro, ele só faz uma coisa de cada vez

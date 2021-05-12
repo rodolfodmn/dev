@@ -1,0 +1,3 @@
+Atualmente os campos hb_seller_key e item_code apenas estão sendo exibidos no primeiro item da request/ produto configuravel. 
+- E o que deveria ser o funcionamento esperado?
+- 

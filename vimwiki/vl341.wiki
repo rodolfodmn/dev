@@ -1,0 +1,13 @@
+838 ja existe só entra em produtos novos pela getid do product wk
+
+- fiz várias tentativas de corrigir o erro do shared catalog, mas não consegui
+- ele pareceu ter desaparecido em alguns casos depois de um pull 
+- porem o erro de produto 838 já existente começou a aparecer em lugares diferentes
+  complicando o debug, uma coisa que dificulta também é eu não ter conseguido achar
+  um padrão que gera o erro do produto 838, que é o reponsavel por travar a exibição
+  dos podutos tanto para serem associados por um produtor, quanto na loja.
+- a unica coisa que se mantem relevante que se burlarmos a execução do method
+  getId da class Webkul\Marketplace\Model\Product, conseguimos remediar o erro do 
+  produto 838.
+
+

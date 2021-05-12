@@ -1,0 +1,6 @@
+##Alguas coisas maneiras que eu gosto no vim 
+
+- c i "", '', t, {}, ()
+- c a w, t, ...
+- . repete seu ultimo comando
+- não usar o mouse e paracer super hackerzão

@@ -1,0 +1,8 @@
+- grooving front e back não estão bem divididas
+    * os devs com acesso antecipado ao back log, podem ir validando o tipo da task
+    * ou o TL faz isso 
+- tasks estão sem criterios de aceite
+- muito tempo perdido com explicações tecnicas, carioca podia colocar as explicações previamente nas tasks
+    * por termos devs iniciantes no magento isso é necessario sim, mas acredito que precisa ser mais organizado
+    * fazer uma grooving para passar as tasks e ver as que precisam de refinamento tecnico e fazer uma reunião só com TL e devs compativeis
+    * os devs terem uma task pra analize individual assim podem colocar na task o que não sabem fazer, pro TL ter uma visão melhor

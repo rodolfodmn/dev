@@ -1,0 +1,10 @@
+select * from core_config where url = 'http://hibrido-jeqgcta-qu7yx3pqr6hwq.us-5.magentosite.cloud'
+
+UPDATE core_config_data
+SET value='http://veiling-holambra.local/'
+WHERE value like '%integration-5ojmyuq-qu7yx3pqr6hwq.us-5.magentosite.cloud%';
+
+http://mcstaging.veilingonline.com.br/
+UPDATE core_config_data
+SET value='http://veiling-holambra.local/'
+WHERE value like '%mcstaging.veilingonline.com.br%';

@@ -1,0 +1,20 @@
+#Modos do Vim
+
+Uma das coisas mais legais do vim, e um dos motivos que ele é tão produtivo, é que ele é focado na edição do texto, ou código.
+Diferente dos outros editores de texto ou ides, que você mais insere ou tira texto da tela, ele tem uma ideia diferente, ele trabalha com "modos" de uso.
+
+##Modo Normal
+Assim que você palavra nova um file com o vim ou só abre ele sem nada, o modo que você se depara é o "normal", que é usado para movimentação.
+Esse modo pode ser acessado de qualquer modo usando a tecla "esc".
+
+##Modo Command
+Caso você esteja no modo normal, usando a tecla ":" (dois pontos), você consegue usar o modo "Command", que usado para enviar comandos para o vim, por exemplo, :q, ou :q!
+que são usados para sair do vim. 
+
+##Modo Insert 
+O modo insert é o modo que você realmente digita coisas, ou seja, é o modo de inserção de texto.
+E é acessado com a tecla "i".
+
+##Modo Visual
+O modo visual é utilizado para seleção de caracteres, palavras, paragrafos, etc. ele pode ser acessado com a tecla "v".
+E combinado com outras teclas como "y", "d", é usado para copiar ou deletar ou modificar o que foi selecionado.
