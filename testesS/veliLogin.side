@@ -1,0 +1,177 @@
+{
+  "id": "0bc1d537-7868-488a-a162-ccc991dcd44a",
+  "version": "2.0",
+  "name": "tese",
+  "url": "http://veiling-holambra.local",
+  "tests": [{
+    "id": "fd38c864-8e20-47d4-873d-4c3afc77f3b2",
+    "name": "login veling",
+    "commands": [{
+      "id": "72492c97-5caf-42d3-a8b1-2d0472d59ee9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfcf2770-b7fc-4a66-beed-27743cdc6e1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1266x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "069da3d6-9055-48ee-aaae-de9b14abace0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Entrar /",
+      "targets": [
+        ["linkText=Entrar /", "linkText"],
+        ["css=.widget > .acc-top > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Entrar /')]", "xpath:link"],
+        ["xpath=//a[@href='http://veiling-holambra.local/default/customer/account/login/']", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Entrar / ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae158705-25a1-4e4a-a396-85995155e848",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72a0bd61-888e-48d7-8a04-9cc0bc860520",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.fieldset:nth-child(2) #pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Diego123@"
+    }, {
+      "id": "51cb8d87-a5e2-41ef-9063-efd38d137c15",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": "diegooscarimhof@gmail.com"
+    }, {
+      "id": "4910aa9e-ea78-4e94-ae03-3deec0473fae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.actions-toolbar:nth-child(3) #send2 > span",
+      "targets": [
+        ["css=.actions-toolbar:nth-child(3) #send2 > span", "css:finder"],
+        ["xpath=//button[@id='send2']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88800caf-b1f0-435b-8093-ae6b683901f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui-id-3 > span",
+      "targets": [
+        ["css=#ui-id-3 > span", "css:finder"],
+        ["xpath=//a[@id='ui-id-3']/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Flores de Corte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f3da493-774b-4bb1-9323-a27ee9fc0b3f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,228)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e26256d4-98ef-46cc-a693-fdbd43dfb760",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) .action:nth-child(6) > span:nth-child(1)",
+      "targets": [
+        ["css=.item:nth-child(1) .action:nth-child(6) > span:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div/div/div[3]/ol/li/div/div[2]/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf1a73d3-23a0-4617-8e26-c24a5981d312",
+      "comment": "",
+      "command": "click",
+      "target": "css=.message-notice",
+      "targets": [
+        ["css=.message-notice", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89dbe5f9-6d07-4bdc-b7bb-5bde3731f037",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pop-btn",
+      "targets": [
+        ["css=.pop-btn", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div[2]/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c425b4b9-8d03-4598-a790-5a4cbda3187a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-datepicker-trigger",
+      "targets": [
+        ["css=.ui-datepicker-trigger", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='date-withdrawal-wrapper']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc723454-7961-4ae6-b8c5-b5d0b5c20d4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pop-close",
+      "targets": [
+        ["css=.pop-close", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div[2]/div/div/div[5]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0367aa3b-5993-4049-a1f7-c6b7cd2cbfb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fd38c864-8e20-47d4-873d-4c3afc77f3b2"]
+  }],
+  "urls": ["http://veiling-holambra.local/"],
+  "plugins": []
+}

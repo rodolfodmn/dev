@@ -1,0 +1,12 @@
+*{
+	font-size: 14px;
+background: #673ab7;
+
+}
+ 
+element.style {
+    background: #010101;
+    color: #f3f3f3;
+    font-family: OpenDyslexic;
+    text-shadow: 4px 3px 2px #000000;
+}

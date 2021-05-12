@@ -1,0 +1,116 @@
+{
+  "id": "dcd10208-c264-41ea-ade2-102080c3430e",
+  "version": "2.0",
+  "name": "create product",
+  "url": "http://veiling-holambra.local/admin/catalog/product/index/key/b288ec74954b2d85db28ec7c15ac735d06c1879c471c5583d294a04941b60ec2/",
+  "tests": [{
+    "id": "bcc30eeb-af1f-4f76-8a38-6a5ab50568f8",
+    "name": "configuravel",
+    "commands": [{
+      "id": "ee71351b-153c-4690-afb0-631715dc2435",
+      "comment": "",
+      "command": "open",
+      "target": "http://veiling-holambra.local/admin/catalog/product/index/key/b288ec74954b2d85db28ec7c15ac735d06c1879c471c5583d294a04941b60ec2/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "845fa54f-8894-44bd-bca9-e2a6627ccac8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1266x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d7bcd76-fbc7-4729-9939-7cd30fb877be",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.action-toggle",
+      "targets": [
+        ["css=.action-toggle", "css:finder"],
+        ["xpath=//div[@id='add_new_product']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33c1985b-7a84-47b6-a43d-6dda739cb2da",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.action-toggle",
+      "targets": [
+        ["css=.action-toggle", "css:finder"],
+        ["xpath=//div[@id='add_new_product']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c42f9da9-a5f8-4b34-95dd-1333df84eb03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action-toggle",
+      "targets": [
+        ["css=.action-toggle", "css:finder"],
+        ["xpath=//div[@id='add_new_product']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2791ae82-41c9-40c9-baf7-2ade090951af",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .item",
+      "targets": [
+        ["css=li:nth-child(2) > .item", "css:finder"],
+        ["xpath=//span[@onclick=\"setLocation('http://veiling-holambra.local/admin/catalog/product/new/set/4/type/configurable/key/dea77eaf29b751c51d754253ee59987fc8265a24c913c429f35a86e4339db739/')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='add_new_product']/ul/li[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Configurable Product')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08717658-cc5f-4929-9255-8e004acd95d6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6aa2232-08df-47d7-9369-1875db4eaaa3",
+      "comment": "",
+      "command": "click",
+      "target": "id=NDPWIAT",
+      "targets": [
+        ["id=NDPWIAT", "id"],
+        ["name=product[name]", "name"],
+        ["css=#NDPWIAT", "css:finder"],
+        ["xpath=//input[@id='NDPWIAT']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/fieldset/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb835e8b-cc4f-440a-9b28-998c3823a846",
+      "comment": "",
+      "command": "type",
+      "target": "id=NDPWIAT",
+      "targets": [
+        ["id=NDPWIAT", "id"],
+        ["name=product[name]", "name"],
+        ["css=#NDPWIAT", "css:finder"],
+        ["xpath=//input[@id='NDPWIAT']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/fieldset/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "121"
+    }]
+  }],
+  "suites": [{
+    "id": "2dc84a25-3eec-42e5-bace-fe5af4c46fe0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bcc30eeb-af1f-4f76-8a38-6a5ab50568f8"]
+  }],
+  "urls": ["http://veiling-holambra.local/admin/catalog/product/index/key/b288ec74954b2d85db28ec7c15ac735d06c1879c471c5583d294a04941b60ec2/"],
+  "plugins": []
+}
