@@ -1,0 +1,16 @@
+no mermory limit:
+	php -d memory_limit=-1 bin/magento app:config:import
+	
+composer path:
+	../../composer/v1.phar 
+php bin/magento admin:user:create --admin-user=rodolfo --admin-password=rods123@ --admin-email=rodolfo@hibrido.com.br --admin-firstname=Rodolfo --admin-lastname=Domingos
+
+php -d memory_limit=-1 bin/magento setup:static-content:deploy
+mysql -u root -proot montreal < 1905sdump.sql
+php bin/magento module:disable {Magento_Elasticsearch,Magento_InventoryElasticsearch,Magento_Elasticsearch6,Magento_Elasticsearch7}
+php bin/magento module:disable Magento_Elasticsearch
+php bin/magento module:enable Magento_Elasticsearch
+
+Exception #0 (Elasticsearch\Common\Exceptions\Missing404Exception): {"error":{"root_cause":[{"type":"index_not_found_exception","reason":"no such index","resource.type":"index_or_alias","resource.id":"magento2_stg_product_1","index_uuid":"_na_","index":"magento2_stg_product_1"}],"type":"index_not_found_exception","reason":"no such index","resource.type":"index_or_alias","resource.id":"magento2_stg_product_1","index_uuid":"_na_","index":"magento2_stg_product_1"},"status":404}
+
+Exception #0 (Elasticsearch\Common\Exceptions\Missing404Exception): {"error":{"root_cause":[{"type":"index_not_found_exception","reason":"no such index","resource.type":"index_or_alias","resource.id":"magento2_stg_product_1","index_uuid":"_na_","index":"magento2_stg_product_1"}],"type":"index_not_found_exception","reason":"no such index","resource.type":"index_or_alias","resource.id":"magento2_stg_product_1","index_uuid":"_na_","index":"magento2_stg_product_1"},"status":404}

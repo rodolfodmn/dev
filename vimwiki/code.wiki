@@ -1,1 +1,5 @@
 [[bugs]]
+[[docker]]
+[[vimbase]]
+[[font]]
+[[chrome]]

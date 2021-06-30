@@ -1,0 +1,18 @@
+1 - analisar pontos de correção
+	- baners
+		1 - bg banner brain - ok
+		2 - bg noite brain final branco - ok
+		3 - bg noite time final branco - ok
+		4 - bg noite code continua meio claro - ok
+		5 - bg noite rocket sem mudança - ok
+		6 - bg noite fone final branco - ok
+		7 - bg noite remoto final branco - ok
+		8 - arrumar role do cto
+	- posts
+		1 - bg brain zuado
+		2 - bg time todo braco
+		3 - bg gatlin ta meio estranho
+
+2 - melhoria na estrutura do css, tava muito zoneado - ok 
+3 - fazer  o mesmo no mb - ok
+

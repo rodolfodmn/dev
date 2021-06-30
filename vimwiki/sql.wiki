@@ -8,3 +8,15 @@ http://mcstaging.veilingonline.com.br/
 UPDATE core_config_data
 SET value='http://veiling-holambra.local/'
 WHERE value like '%mcstaging.veilingonline.com.br%';
+
+magentosite.cloud
+UPDATE core_config_data SET value='http://montreal.loc/' WHERE value like '%.magentosite.cloud%';
+ntegration-5ojmyuq-qgfgrwvxxm25o.us-3.magentosite.cloud/
+
+UPDATE core_config_data SET value='http://koch.loc/' WHERE value like '%superkoch.com.br%';
+UPDATE core_config_data SET value='http://proposto.loc/' WHERE value like '%proposto.com.br%';
+ https://www.superkoch.com.br/
+ magento-cloud mount:download --mount pub/media --target pub/media --exclude catalog/product/cache --exclude tmp --exclude .\* -y
+ 
+UPDATE core_config_data SET value='http://atlas.loc/' WHERE value like '%dako.com.br%';
+UPDATE core_config_data SET value='http://b2b.atlasdako.localhost/' WHERE scope_id = 12 AND path = 'web/secure/base_url';

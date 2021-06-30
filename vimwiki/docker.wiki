@@ -1,0 +1,26 @@
+00:00 What is Docker?
+	é uma "simulação" de um os, que vai rodar sua app.
+	
+01:54 Installation & Tooling
+	é eu meio que sei instalar.
+	docker ps - list os containers
+	
+02:40 Dockerfile
+	é onde a gente programa os comportamentos do meu docker
+	
+06:06 Build an Image
+	rodando docker-build
+	biulda o role: docker-build -t nome/outronome:1.0 .
+	
+07:12 Run a Container
+	roda o role: docker run [id, ou nome]
+	tem que "linkar" com o pc com: -p 5000:80 
+	volume: docker volume create nome-do-volume
+	
+08:52 Debugging
+	entra no container: 
+	
+09:35 Docker Compose
+	pra rodar 1 coisa por container
+	docker-compose.yml
+		coloca tudo as config la.

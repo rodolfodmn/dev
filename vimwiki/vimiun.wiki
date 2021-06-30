@@ -1,0 +1,5 @@
+unmap j
+map k scrollDown
+map l scrollUp
+map J previousTab
+map ç nexTab

@@ -1,0 +1,15 @@
+## o que preciso para instalar o magento 2?
+- php - ok
+- servidor, apache | nginx -ok
+- db -ok
+- Elasticsearch
+- RabbitMQ ??
+- Redis -ok
+- Varnish
+
+## o que é cada coisa?
+
+
+## utils
+https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
+[[sql]]
