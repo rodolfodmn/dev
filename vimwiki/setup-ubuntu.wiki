@@ -1,0 +1,21 @@
+# setup ubuntu
+
+apt install git chromium-browser i3 nodejs neovim curl
+
+git
+ssh git
+
+chrome
+chromium
+
+nvim
+nvim plug
+vimwiki
+curl
+
+clonar dev
+dotfiles
+i3
+	- cp o i3/ pra ~/.config
+node
+discord

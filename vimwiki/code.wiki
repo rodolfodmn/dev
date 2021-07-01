@@ -3,3 +3,4 @@
 [[vimbase]]
 [[font]]
 [[chrome]]
+[[setup-ubuntu]]
